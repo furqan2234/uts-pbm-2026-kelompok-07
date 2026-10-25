@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FerryGo</string>
+    <string name="judul_aplikasi">Pemesanan Tiket Kapal</string>
+    <string name="subjudul_aplikasi">Hitung tarif dan pesan tiket dengan cepat</string>
+
+    <!-- Format umum -->
+    <string name="format_rupiah">Rp%1$s</string>
+    <string name="label_dengan_keterangan">%1$s (%2$s)</string>
+
+    <!-- Formulir -->
+    <string name="judul_form">Data penumpang</string>
+    <string name="label_nama">Nama penumpang</string>
+    <string name="label_usia">Usia (tahun)</string>
+    <string name="error_nama">Nama tidak boleh kosong</string>
+    <string name="error_usia">Usia harus berupa angka 0–%1$d</string>
+    <string name="label_kelas">Kelas layanan</string>
+    <string name="kelas_ekonomi">Ekonomi</string>
+    <string name="kelas_eksekutif">Eksekutif</string>
+
+    <!-- Kategori -->
+    <string name="kategori_bayi">Bayi</string>
+    <string name="kategori_anak">Anak</string>
+    <string name="kategori_dewasa">Dewasa</string>
+    <string name="kategori_lansia">Lansia</string>
+
+    <!-- Aksi dan opsi -->
+    <string name="tambah_penumpang">Tambah Penumpang</string>
+    <string name="opsi_motor">Sertakan 1 sepeda motor (+%1$s)</string>
+    <string name="pesan_penuh">Jumlah penumpang sudah mencapai batas %1$d orang.</string>
+
+    <!-- Daftar -->
+    <string name="judul_daftar">Daftar penumpang (%1$d/%2$d)</string>
+    <string name="daftar_kosong">Belum ada penumpang. Isi data di atas lalu tekan Tambah Penumpang.</string>
+    <string name="detail_usia_kelas">%1$d tahun • %2$s</string>
+    <string name="hapus">Hapus</string>
+
+    <!-- Ringkasan -->
+    <string name="ringkasan_judul">Ringkasan</string>
+    <string name="ringkasan_final">Ringkasan Pemesanan (Terkonfirmasi)</string>
+    <string name="rincian_tarif">Rincian tarif</string>
+    <string name="biaya_motor">Sepeda motor</string>
+    <string name="total">Total</string>
+    <string name="syarat_dewasa">Pemesanan memerlukan minimal 1 penumpang dewasa.</string>
+    <string name="status_terkonfirmasi">Pemesanan telah dikonfirmasi. Formulir dikunci.</string>
+
+    <!-- Tombol utama -->
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="pemesanan_baru">Pemesanan Baru</string>
+</resources>
