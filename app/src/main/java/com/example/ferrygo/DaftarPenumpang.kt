@@ -21,6 +21,21 @@ import androidx.compose.ui.unit.dp
 // Anggota 3: kartu penumpang, tombol hapus, dan keadaan kosong
 
 @Composable
+fun LencanaKategori(kategori: KategoriPenumpang) {
+    Surface(
+        shape = RoundedCornerShape(50),
+        color = warnaKategori(kategori)
+    ) {
+        Text(
+            text = stringResource(kategori.labelRes),
+            style = MaterialTheme.typography.labelSmall,
+            color = Color.White,
+            modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+        )
+    }
+}
+
+@Composable
 fun KeadaanKosong() {
     Box(
         modifier = Modifier
